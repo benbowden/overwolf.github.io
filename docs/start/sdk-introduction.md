@@ -96,7 +96,7 @@ You can use images and assets like in any other web app. The only mandatory asse
 
 After you finish building your app, you need to pack everything including the manifest, source files and assets into a single Overwolf app installer, called an `OPK` package.
 
-An OPK package is actually a ZIP package:  To create it, just ZIP all your files together, then manually change the file extension from ZIP to OPK. Double clicking an OPK will install the package.
+An OPK package is actually a ZIP package:  To create it, just ZIP all your files together, then manually change the file extension from ZIP to OPK. If the ZIP icon doesn't change to an Overwolf icon, that means you'll need to go change your folder settings, so search on your computer for "File Explorer Options" -> select the "View" tab -> and then deselect the "Hide extensions for known file types" option. Once deselected, try again to rename the ZIP file to OPK and you should see it switch from a zip icon to an Overwolf icon. Double clicking an OPK will install the package.
 
 We remind you that only [whitelisted](#whitelist-you-as-a-developer) developers can install OPKs that were not downloaded from the store.
 
